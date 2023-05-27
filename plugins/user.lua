@@ -9,4 +9,9 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+  {
+    "m4xshen/hardtime.nvim",
+    opts = {}
+  },
 }

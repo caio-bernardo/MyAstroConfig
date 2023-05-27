@@ -6,4 +6,14 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.pack.rust" },
+  {
+    import = "astrocommunity.editing-support.todo-comments-nvim",
+    cmd = { "TodoQuickFix" },
+  },
+  { import = "astrocommunity.utility.noice-nvim" },
+
+  {
+    import = "astrocommunity.colorscheme.monokai-pro",
+  },
 }
