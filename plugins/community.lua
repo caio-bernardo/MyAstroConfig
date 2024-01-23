@@ -14,6 +14,15 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
 
   {
+    import = "astrocommunity.motion.leap-nvim",
+  },
+  {
+    import = "astrocommunity.motion.nvim-surround",
+  },
+  {
     import = "astrocommunity.colorscheme.monokai-pro",
+  },
+  {
+    import = "astrocommunity.colorscheme.catppuccin",
   },
 }
