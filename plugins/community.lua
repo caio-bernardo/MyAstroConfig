@@ -20,7 +20,7 @@ return {
     import = "astrocommunity.motion.nvim-surround",
   },
   {
-    import = "astrocommunity.colorscheme.monokai-pro",
+    import = "astrocommunity.colorscheme.monokai-pro-nvim",
   },
   {
     import = "astrocommunity.colorscheme.catppuccin",
