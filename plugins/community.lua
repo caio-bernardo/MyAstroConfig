@@ -6,23 +6,44 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+
+  -- Language Packs
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.python" },
+
+  -- Utils
   {
     import = "astrocommunity.editing-support.todo-comments-nvim",
     cmd = { "TodoQuickFix" },
   },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.test.neotest" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 
+  -- Motions
+  { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.motion.mini-surround" },
+
+  -- UI
   {
-    import = "astrocommunity.motion.leap-nvim",
+    import = "astrocommunity.bars-and-lines.bufferline-nvim",
+    opts = {
+      disabled_filetypes = { "alpha", "starter" },
+    },
   },
   {
-    import = "astrocommunity.motion.nvim-surround",
+    import = "astrocommunity.bars-and-lines.lualine-nvim",
+    opts = {
+      disabled_filetypes = { "alpha" },
+      extensions = { "mason", "trouble", "toggleterm", "neo-tree", "aerial" },
+    },
   },
-  {
-    import = "astrocommunity.colorscheme.monokai-pro-nvim",
-  },
-  {
-    import = "astrocommunity.colorscheme.catppuccin",
-  },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
+  { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  -- Themes
+  -- { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
 }
