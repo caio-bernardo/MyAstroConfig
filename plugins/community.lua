@@ -18,30 +18,17 @@ return {
     cmd = { "TodoQuickFix" },
   },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
-  { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
-
   -- Motions
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
 
   -- UI
-  {
-    import = "astrocommunity.bars-and-lines.bufferline-nvim",
-    opts = {
-      disabled_filetypes = { "alpha", "starter" },
-    },
-  },
-  {
-    import = "astrocommunity.bars-and-lines.lualine-nvim",
-    opts = {
-      disabled_filetypes = { "alpha" },
-      extensions = { "mason", "trouble", "toggleterm", "neo-tree", "aerial" },
-    },
-  },
+  { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
+  { import = "astrocommunity.utility.noice-nvim" },
   -- Themes
   -- { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },

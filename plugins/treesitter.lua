@@ -6,4 +6,7 @@ return {
       -- "lua",
     })
   end,
+  dependencies = {
+    { "nushell/tree-sitter-nu" },
+  },
 }
