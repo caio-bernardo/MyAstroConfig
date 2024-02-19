@@ -7,9 +7,6 @@ return {
   -- first key is the mode
   n = {
     -- Aerial
-    ["<leader>a"] = { name = "Aerial" },
-    ["<leader>aa"] = { "<cmd>AerialToggle<cr>", desc = "Toggle Aerial" },
-    ["<leader>an"] = { "<cmd>AerialNavToggle<cr>", desc = "Toggle Aerial Navigation" },
     ["]y"] = { "<cmd>AerialNext<cr>", desc = "Next symbol" },
     ["[y"] = { "<cmd>AerialPrev<cr>", desc = "Previous symbol" },
     -- second key is the lefthand side of the map
